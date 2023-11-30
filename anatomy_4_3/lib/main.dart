@@ -17,6 +17,7 @@ void main() {
       TextDecoration.underline,
     ]),
     decorationStyle: TextDecorationStyle.double,
+    decorationColor: Colors.yellow,
   );
 
   runApp(
