@@ -17,6 +17,7 @@ void main() {
       TextDecoration.underline,
     ]),
     decorationStyle: TextDecorationStyle.double,
+    decorationColor: Colors.yellow,
   );
 
   runApp(
@@ -37,6 +38,7 @@ void main() {
           child: Center(
             child: Text(name,
               style: textStyle,
+
             ),
           ),
         ),
