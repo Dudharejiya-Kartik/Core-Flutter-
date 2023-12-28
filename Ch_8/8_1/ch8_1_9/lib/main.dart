@@ -11,26 +11,31 @@ void main()
             title: Text(
               "Letter Cover",
               style: TextStyle(
-                  fontSize:20,
-                  color: Colors.white
+                color: Colors.white,
+                fontSize: 20,
               ),
             ),
-            backgroundColor: Colors.green,
+            centerTitle: true,
+            shadowColor: Colors.black,
+            elevation: 5,
+            backgroundColor: Colors.green.shade600,
           ),
           body: Align(
             child: Container(
-              height: 400,
-              width: 400,
-              decoration: BoxDecoration(
-                color: Colors.black,
-                border: Border.symmetric(
-                  vertical: BorderSide(
-                    color: Colors.white,
-                    width: 150,
-                  ),
-                  horizontal: BorderSide(
-                    color: Colors.black,
-                    width: 150,
+              height: 240,
+              width: 240,
+              color: Color(0xff4caf50),
+              child: Container(
+                decoration: const BoxDecoration(
+                  border: Border.symmetric(
+                    vertical: BorderSide(
+                      color: Color(0xff4caf50),
+                      width: 100,
+                    ),
+                    horizontal: BorderSide(
+                      color: Color(0xff72c075),
+                      width: 100,
+                    ),
                   ),
                 ),
               ),
