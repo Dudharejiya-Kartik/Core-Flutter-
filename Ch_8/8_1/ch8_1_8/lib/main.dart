@@ -10,58 +10,86 @@ void main()
           appBar: AppBar(
             backgroundColor: Colors.white,
           ),
-          body: const Center(
-            child: Column(
-              children: [
-                CircleAvatar(
-                  radius: 200,
-                  backgroundColor: Colors.yellow,
-                  child :CircleAvatar(
-                    radius: 160,
-                    backgroundColor: Colors.white,
-                    child : CircleAvatar(
-                      radius: 150,
-                      backgroundColor: Colors.yellow,
-                      child : Center(
-                        child: Row(
-                          children: [
-                            SizedBox(
-                              width: 35,
+          body: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Center(
+              child: Align(
+                child: Center(
+                  child: Column(
+                    children: [
+                      Container(
+                        height: 420,
+                        width: 420,
+                        decoration: BoxDecoration(
+                          color: Colors.orange,
+                          borderRadius: BorderRadius.circular(200),
+                        ),
+                        alignment: Alignment.center,
+                        child: Container(
+                          height: 320,
+                          width: 320,
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(200),
+                          ),
+                          alignment: Alignment(0,-5),
+                          child: Container(
+                            height: 300,
+                            width: 300,
+                            decoration: BoxDecoration(
+                              color: Colors.orange,
+                              borderRadius: BorderRadius.circular(200),
                             ),
-                            CircleAvatar(
-                              radius: 50,
-                              backgroundColor: Colors.white,
+                            alignment: Alignment(0,-0.25),
+                            child: Row(
+                              children: [
+                                SizedBox(
+                                  width: 40,
+                                ),
+                                Container(
+                                  height: 100,
+                                  width: 100,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(200),
+                                  ),
+                                ),
+                                SizedBox(
+                                  width: 50,
+                                ),
+                                Container(
+                                  height: 100,
+                                  width: 100,
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(200),
+                                  ),
+                                ),
+                              ],
                             ),
-                            SizedBox(
-                              width: 30,
-                            ),
-                            CircleAvatar(
-                              radius: 50,
-                              backgroundColor: Colors.white,
-                            ),
-                          ],
+                          ),
                         ),
                       ),
-                    ),
+                    ],
                   ),
                 ),
-              ],
+              ),
             ),
           ),
-          bottomNavigationBar: BottomAppBar(
-            color: Colors.yellow,
+          bottomNavigationBar: const BottomAppBar(
+            color: Colors.orange,
             child: Center(
               child: Text(
                 "Emoji",
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 40,
                   color: Colors.white,
                 ),
-                ),
-            ),
+              ),
             ),
           ),
         ),
       ),
-    );
+    ),
+  );
 }
