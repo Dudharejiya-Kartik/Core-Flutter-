@@ -10,58 +10,81 @@ void main()
           appBar: AppBar(
             backgroundColor: Colors.white,
           ),
-          body: const Center(
-            child: Column(
-              children: [
-                CircleAvatar(
-                  radius: 200,
-                  backgroundColor: Colors.yellow,
-                  child :CircleAvatar(
-                    radius: 160,
-                    backgroundColor: Colors.white,
-                    child : CircleAvatar(
-                      radius: 150,
-                      backgroundColor: Colors.yellow,
-                      child : Center(
+          body: Align(
+            child: Center(
+              child: Column(
+                children: [
+                  Container(
+                    height: 400,
+                    width: 400,
+                    decoration: BoxDecoration(
+                      color: Colors.orange,
+                      borderRadius: BorderRadius.circular(200),
+                    ),
+                    alignment: Alignment.center,
+                    child: Container(
+                      height: 330,
+                      width: 330,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(200),
+                      ),
+                      alignment: Alignment(0,-5),
+                      child: Container(
+                        height: 320,
+                        width: 330,
+                        decoration: BoxDecoration(
+                          color: Colors.orange,
+                          borderRadius: BorderRadius.circular(200),
+                        ),
+                        alignment: Alignment(0,-0.25),
                         child: Row(
                           children: [
                             SizedBox(
-                              width: 35,
+                              width: 40,
                             ),
-                            CircleAvatar(
-                              radius: 50,
-                              backgroundColor: Colors.white,
+                            Container(
+                              height: 100,
+                              width: 100,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(100),
+                              ),
                             ),
                             SizedBox(
-                              width: 30,
+                              width: 50,
                             ),
-                            CircleAvatar(
-                              radius: 50,
-                              backgroundColor: Colors.white,
+                            Container(
+                              height: 100,
+                              width: 100,
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(100),
+                              ),
                             ),
                           ],
                         ),
                       ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
-          bottomNavigationBar: BottomAppBar(
-            color: Colors.yellow,
+          bottomNavigationBar: const BottomAppBar(
+            color: Colors.orange,
             child: Center(
               child: Text(
                 "Emoji",
                 style: TextStyle(
-                  fontSize: 30,
+                  fontSize: 35,
                   color: Colors.white,
                 ),
-                ),
-            ),
+              ),
             ),
           ),
         ),
       ),
-    );
+    ),
+  );
 }
