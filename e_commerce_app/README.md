@@ -1,6 +1,3 @@
-# Project Definition :`   E-Commerce App
-
-<br><br><br>
 
 ## `Project Description:`
 
@@ -82,17 +79,39 @@ to the appropriate sources, if applicable.
 <br><br>
 
 ## Images:
-![WhatsApp Image 2024-01-24 at 8 56 50 AM](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/f9c87086-913a-4968-a854-c5543fece902)
-![WhatsApp Image 2024-01-24 at 8 56 51 AM](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/78a5f036-b2d4-43b2-821e-9d9dfb84b2fa)
-![WhatsApp Image 2024-01-24 at 8 56 51 AM (1)](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/c1aa9fa5-f51b-4f58-81a6-cda7be155cc7)
-![WhatsApp Image 2024-01-24 at 8 56 51 AM (2)](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/c5b0b538-dd8a-4853-b231-c8033b9189a2)
-![WhatsApp Image 2024-01-24 at 8 56 52 AM](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/2d07b9ed-01ee-47eb-8e40-decfc685cd25)
-![WhatsApp Image 2024-01-24 at 8 56 52 AM (1)](https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/ccb4a83d-1e87-4107-8700-c67e775593bb)
+
+
+<p>
+   <img align = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/f9c87086-913a-4968-a854-c5543fece902" width=22% height=35% >
+   <img align = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/78a5f036-b2d4-43b2-821e-9d9dfb84b2fa" width=22% height=35% >
+    <img  = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/c1aa9fa5-f51b-4f58-81a6-cda7be155cc7" width=22% height=35% >
+</p>
+<br>
+<p>
+    <img align = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/c5b0b538-dd8a-4853-b231-c8033b9189a2" width=22% height=35% >
+   <img align = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/f6421560-b25a-43b1-b036-26704b45800d" width=22% height=35% >
+   <img  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/2d07b9ed-01ee-47eb-8e40-decfc685cd25" width=22% height=35% >
+   
+  
+</p>
+<p>
+   <img align = "left"  src = "https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/ccb4a83d-1e87-4107-8700-c67e775593bb" width=22% height=35% >
+</p>
 
 <br><br>
 
 ## Project Video:
+<p>
 
-https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/4f958fe4-6c37-460b-9e98-725f29fe9c54
+
+https://github.com/Dudharejiya-Kartik/Core-Flutter-/assets/137186473/12a1dcc8-d38c-4264-b046-0834aef63521
+
+
+</p>
+<br>
+<br>
+
+
+
 
 
